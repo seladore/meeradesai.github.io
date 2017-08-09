@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>meera desai</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Sacramento" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header id="header">
+        <!-- <nav class="nav navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="{% if name.title == "Home" %}active{% endif %}"><a href="header">home</a></li>
+                                <li class="{% if name.title == "About" %}active{% endif %}"><a href="about">about</a></li>
+                                <li class="{% if name.title == "Portfolio" %}active{% endif %}"><a href="portfolio">portfolio</a></li>
+                                <li class="{% if name.title == "Contact" %}active{% endif %}"><a href="contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav> -->
+        <div class="index_bg">
+            <div class="container text-center">
+                <h1 class="title">hi, i'm meera</h1>
+                <button type="submit"><a class="resume" href="static/md_resume.pdf">Download Resume</a></button>
+            </div>
+        </div>
+    </header>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>About Me</h1>
+                    <p>Thanks for visiting! I am a Michigan based researcher, interested in using analytics for international development and societal accessibility. I have an M.S. in Business Analytics from the College of William and Mary and a B.S. in
+                        Information. These degrees included courses in Data Management, Machine Learning, Artificial Intelligence, and IT Ethics. I love using my skillset for research purposes, particularly in understanding information dissemination. Please contact me if you are interested in collaborating!</p>
+                    <p>Check out my feature on <a href="https://www.si.umich.edu/news-events/people-profiles/faces-umsi/faces-umsi-meera-desai">Faces of UMSI</a>.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="static/prof_pic.jpg" class="profile_pic" alt="Image of Meera Desai"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Analytics<h2>
+                </div>
+                <div class="col-md-8">
+                    <h3>Chick-Fil-A Data System</h3>
+                    <p>The client was interested in learning how to use their hourly/daily/monthly data to support their business needs.
+                    Using data management and curation methodologies, we cleaned, sorted, and built a SQL Server data warehouse to support the client's analytics needs. This included a Tableau dashboard, which would allow for holistic debriefings as well as in depth insights that the data provided.</p>
+                    <h3>Met Museum of Art Dataset Analysis</h3>
+                    <p>As part of an Artificial Intelligence course, I was interested in understand if "important/popular" art could be quantified. Using the open data set,
+                    I developed a neural network using Python to see if there were categorial or numerical variables which could lead to predictive insights.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Accessibility</h2>
+                </div>
+                <div class="col-md-8">
+                    <h3>AATA The Ride Mobile Site Usability Analysis</h3>
+                    <p>Looking at the old AATA bus site, my team conducted surveys and interviews to understand usability issues of the Ann Arbor Trasnportation authority's mobile site.
+                    This process helped up understand key issues that impeded the over access of the site.</p>
+                    <h3>A New Trotter</h3>
+                    <p>As part of a student led initiative, we were concerned with addressing issues of accessibility within the scope of the University of Michigan's Trotter Multicultural Center. Beginning as a student project, this eventually led to the
+                        success of a new building. Read more about the <a href="https://trotter.umich.edu/article/trotter-state-st-timeline-events">initiative's history.</a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Research</h2>
+                </div>
+                <div class="col-md-8">
+                    <h3>News Media on Social Media</h3>
+                    <p>Explaining News Engagement on Tumblr and Digital Traffic to News Websites • Dam Hee Kim, University of Michigan, Ann Arbor; Meera Desai, University of Michigan • In a digital era, news organizations, despite their financial sufferings, have been quick to embrace social media with dual purposes: to engage users with their content and to drive traffic to websites. By analyzing digital traffic of top 50 news organizations and 230,375 Tumblr posts made by these organizations, this paper examines the relationships between features of news posts and users’ engagement with news posts, and between news organizations’ activities on Tumblr and digital traffic.</p>
+                    <h3>A/PIA Archiving Project</h3>
+                    <p>This project entailed building the tradition of archival of student organizing documents. This collect effort pushed for the donation of physical and digital objects to the Bentley Historic Library in Ann Arbor, Michigan</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Writing Samples</h2>
+                </div>
+                <div class="col-md-8">
+                    <ul>
+                        <li><a href="static/md_technology_saffron.pdf">Analysis of Digital Technology Usage During the Saffron Revolution</a></li>
+                        <li><a href="static/md_power_inequalities_hawaii.pdf">Gender Power Inequalities and the Annexation of Hawaii</a></li>
+                        <li><a href="static/md_national_geographic.pdf">Your Shot National Geographic Pamphlet</a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="container">
+            <h1>contact</h1>
+            <form id="contactform" method="POST" onsubmit="alert('Thank you for your feedback.');">
+            <div class="col-xs-7">
+                <input class="form-control" type="text" name="name" placeholder="Your name">
+            </div>
+            <div class="col-xs-7">
+                <input class="form-control" type="email" name="_replyto" placeholder="Your email">
+            </div>
+            <input type="hidden" name="_subject" value="Portfolio Contact" />
+            <div class="col-xs-7">
+                <textarea class="form-control" name="message" placeholder="Your message"></textarea>
+            </div>
+            <input type="text" name="_gotcha" style="display:none" />
+            <div class="col-xs-7">
+                <input class="btn btn-default form-control" type="submit" value="Send">
+            </div>
+            <input type="hidden" name="_next" value="seladore.github.io#contact" />
+            </form>
+            <div class="social">
+                    <div class="col-xs-10">
+<a href="https://www.github.com/seladore"><img class="social-media" src="static/github.png"></a>
+                </div>
+                <div class="col-xs-10">
+<a href="https://www.linkedin.com/in/meerades/"><img class="social-media" src="static/linkedin.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var contactform = document.getElementById('contactform');
+        contactform.setAttribute('action', '//formspree.io/' + 'desmeera' + '@' + 'gmail' + '.' + 'com');
+    </script>
+</body>

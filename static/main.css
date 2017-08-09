@@ -1,0 +1,167 @@
+body {
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+}
+ul {
+    padding: 3% 0% 3% 0%;
+}
+p, a {
+    font-size: 1.25em
+}
+a {
+    text-decoration: underline;
+    color: #323232;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #646464;
+}
+
+a:active {
+    color: #7E4A5C;
+}
+
+a:visited {
+    color: #372129;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    width: 50%;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 10em;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    text-transform: lowercase;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.profile_pic {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/**media Queries**/
+
+.index_bg {
+    background: url(../static/bg_flowers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 15em;
+    color: #FFFFFF;
+    margin-top: 30%;
+}
+
+button {
+    background: #BAC9F3;
+    display: inline-block;
+    padding: 1%;
+    margin: 10% 25%;
+    position: relative;
+    border: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+    background: #FFFFFF;
+}
+.resume {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+}
+.social-media{
+    height: 10%;
+    width: 10%
+}
+.about {
+    background-color: #F4D6AE;
+    padding: 10% 10%;
+}
+
+.portfolio {
+    background-color: #9BA3DB;
+    padding: 10% 10%;
+}
+
+.contact {
+    background-color: #93B552;
+    padding: 10% 10%;
+}
+
+.nav>a {
+    color: #FFD34E;
+}
+
+.nav>a:hover {
+    text-decoration: underline;
+}
+.form-control{
+    margin: 1% 0% 1% 0%;
+}
+
+@media (min-width: 20px) and (max-width: 750px) {
+    .title {
+        font-size: 4em;
+    }
+    body {
+        font-size: 1.5em;
+    }
+    .index_bg {
+        background-position: right -40%;
+    }
+    .profile_pic {
+        height: 75%;
+        width: 75%;
+    }
+}
+
+
+/****/
+
+@media (min-width: 750px) and (max-width: 1200px) {
+    .title {
+        font-size: 6em;
+    }
+    body {
+        font-size: 1.5em;
+    }
+    .index_bg {
+        background-position: right -40%;
+    }
+    .profile_pic {
+        height: 50%;
+        width: 50%;
+    }
+}
