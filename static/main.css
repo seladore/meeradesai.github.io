@@ -101,10 +101,24 @@ button:hover {
     color: #333;
     text-decoration: none;
 }
-.social-media{
-    height: 10%;
-    width: 10%
+
+.container {
 }
+
+.social {
+  display: inline-block;
+  width: 100%;
+}
+
+.social-media{
+  width: 10%;
+}
+
+.social-media img {
+  height: 100%;
+  width: 100%;
+}
+
 .about {
     background-color: #F4D6AE;
     padding: 10% 10%;
